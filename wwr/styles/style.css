@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+
 div#content {
         max-width: 1600px;
         margin: 0 auto; 
@@ -6,23 +8,32 @@ nav a {
     text-align: center;
     color: #fcfbfb;
     text-decoration: none;
+    font-family: 'Source Sans Pro';
+    padding: 35px;
 }
 
 nav a:hover {
     background-color: #78C5D7;
-    color: #134266
+    color: #134266;
 }
 
 .logo {
     width:80px
 }
 
+#logo_link{
+    padding-top: 5px;
+}
+
 header {
     background-color: #134266;
 }
 
-.hometitle {
-    color:white
+.home-title {
+    color:#134266;
+    font-family: 'Roboto Condensed';
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 #hero-img {
@@ -31,19 +42,27 @@ header {
 
 #hero-msg h1 {
     text-align: center;
+    font-family: 'Source Sans Pro' 
 }
 
 #hero-msg h4 {
     text-align: center;
-    color:#134266
+    color:#134266;
+    font-family: 'Source Sans Pro' 
 }
 
 .button-box {
     text-align: center;
+    font-family: 'Source Sans Pro'
 }
 
 main section {
     text-align: center;
+    font-family: 'Source Sans Pro'
+}
+
+main section img {
+    box-sizing: border-box;
 }
 
 div#background {
@@ -53,35 +72,60 @@ div#background {
 
 body {
     background-color:white;
-    color:#111629
+    color:#111629;
+    margin: 0;
+    padding: 0;
+}
+
+.card-img {
+    border: 10px solid #111629;
+}
+
+h2 {
+    margin: 0;
 }
 
 .icon {
-    width:80px
+    width:80px;
+    padding-top: 10px;
 }
 
 .book, .join {
     background-color: #78C5D7;
     color:white;
-    text-decoration: none
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Source Sans Pro';
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
     background-color: #134266;
     color:white
+
+}
+
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
 }
 
 footer {
     background-color: #134266;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer h3 {
     color: white;
+    font-family: 'Source Sans Pro'
 }
 
 footer a {
     color: white;
-    text-decoration: none
+    text-decoration: none;
+    font-family: 'Source Sans Pro'
 }
 
 footer a:hover {
@@ -91,12 +135,21 @@ footer a:hover {
 
 .msg {
     background-color:#FCE172;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 .msg h2 {
-    color:#111629
+    color:#111629;
+    font-family: 'Roboto Condensed';
 }
 
 .msg p {
-    color:#111629
+    color:#111629;
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+
+footer .social img {
+    padding-top: 15px;
 }
