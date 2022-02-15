@@ -8,7 +8,7 @@ nav a {
     text-align: center;
     color: #fcfbfb;
     text-decoration: none;
-    font-family: 'Source Sans Pro';
+    font-family: 'Source Sans Pro', Helvetica, sans-serif;
     padding: 35px;
 }
 
@@ -31,7 +31,7 @@ header {
 
 .home-title {
     color:#134266;
-    font-family: 'Roboto Condensed';
+    font-family: 'Roboto Condensed', Helvetica, sans-serif;
     font-size: 2em;
     margin-top: 10px;
 }
@@ -42,23 +42,23 @@ header {
 
 #hero-msg h1 {
     text-align: center;
-    font-family: 'Source Sans Pro' 
+    font-family: 'Source Sans Pro', Helvetica, sans-serif;
 }
 
 #hero-msg h4 {
     text-align: center;
     color:#134266;
-    font-family: 'Source Sans Pro' 
+    font-family: 'Source Sans Pro', Helvetica, sans-serif;
 }
 
 .button-box {
     text-align: center;
-    font-family: 'Source Sans Pro'
+    font-family: 'Source Sans Pro', Helvetica, sans-serif;
 }
 
 main section {
     text-align: center;
-    font-family: 'Source Sans Pro'
+    font-family: 'Source Sans Pro', Helvetica, sans-serif;
 }
 
 main section img {
@@ -95,7 +95,7 @@ h2 {
     color:white;
     text-decoration: none;
     font-size: 18px;
-    font-family: 'Source Sans Pro';
+    font-family: 'Source Sans Pro', Helvetica, sans-serif;
     padding: 15px 30px;
     margin-top: 50px;
     border-radius: 5px;
@@ -119,13 +119,13 @@ footer {
 
 footer h3 {
     color: white;
-    font-family: 'Source Sans Pro'
+    font-family: 'Source Sans Pro', Helvetica, sans-serif;
 }
 
 footer a {
     color: white;
     text-decoration: none;
-    font-family: 'Source Sans Pro'
+    font-family: 'Source Sans Pro', Helvetica, sans-serif;
 }
 
 footer a:hover {
@@ -141,12 +141,12 @@ footer a:hover {
 
 .msg h2 {
     color:#111629;
-    font-family: 'Roboto Condensed';
+    font-family: 'Roboto Condensed', Helvetica, sans-serif;
 }
 
 .msg p {
     color:#111629;
-    font-size: .8em;
+    font-size: 1em;
     padding-bottom: 15px;
 }
 
