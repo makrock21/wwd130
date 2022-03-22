@@ -45,42 +45,37 @@ header {
     margin-top: 10px;
 }
 
-#hero {
+#littlecolorado {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
     margin-top: -100px;
 }
 
-#hero-box {
+#littlecolorado-box {
     grid-column: 1/4;
     grid-row: 1/3;
     z-index: -1;
 }
 
-#hero-img {
+#littlecolorado-img {
     width: 100%
 }
 
-#hero-msg {
+#littlecolorado-msg {
     grid-column: 1/4;
     grid-row: 1/3;
     margin-top: 100px;
 }
 
-#hero-msg h1 {
+#littlecolorado-msg h1 {
     color:white;
     text-align: center;
     font-family: 'Source Sans Pro', Helvetica, sans-serif;
 }
 
-#hero-msg h4 {
+#littlecolorado-msg h4 {
     text-align: center;
     color:white;
-    font-family: 'Source Sans Pro', Helvetica, sans-serif;
-}
-
-.button-box {
-    text-align: center;
     font-family: 'Source Sans Pro', Helvetica, sans-serif;
 }
 

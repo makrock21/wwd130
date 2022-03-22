@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+3:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --heading-font: "Poppins";
+    --paragraph-font: "Source Sans 3", Helvetica, sans-serif;
+}
+
+.nav {
+	position: sticky;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 60px;
+	top: 0;
+}
+
+.subnav {
+	position: sticky;
+	bottom: 0;
+	top: 60px;
+}
+
+.nav {
+	background: #748F84;
+}
+
+.nav__title {
+    margin: 0px 30px;
+}
+
+.nav__item {
+    display: inline-block;
+    margin: 0px 30px;
+}
+
+.hero {
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	min-height: 80vh;
+	background: #C5D4D2;
+    font-family: var(--heading-font);
+}
+
+.h1 {
+    font-size: 6em;
+    margin: 0 90px;
+    text-align: center;
+    font-family: var(--paragraph-font);
+}
+
+.subnav {
+	background: #fff;
+	border-bottom: 1px solid #222;
+}
+
+.nav__container {
+    align-items: baseline;
+    display: flex;
+    margin: 0 60px;
+    padding: 15px 0;
+    font-family: var(--paragraph-font);
+}
+.nav__title {
+    font-size: 1.25em;
+    color: #fff;
+    font-family: var(--paragraph-font);
+}
+.nav__list {
+    margin: 0 15px;
+    color: #fff;
+    font-family: var(--paragraph-font);
+}
+.nav__item {
+    display: inline-block;
+    margin: 0 8px;
+    padding: 5px;
+    color: #fff;
+}
+
+.section {
+	max-width: 900px;
+	margin: 60px auto;
+	padding: 90px 30px;
+	background-color: #D7ECF5;
+	text-align: center;
+    font-family: var(--heading-font);
+}
+
+h2 {
+    font-size: 3em;
+    margin-bottom: 15px;
+    font-family: var(--paragraph-font);
+}
+p {
+    line-height: 1.625em;
+    margin: 0 auto;
+    max-width: 480px;
+    font-family: var(--paragraph-font);
+}
+
+footer {
+	text-align: center;
+    font-family: var(--paragraph-font);
+}
