@@ -12,6 +12,7 @@
 	align-items: center;
 	height: 60px;
 	top: 0;
+    z-index: 3;
 }
 
 .subnav {
@@ -84,19 +85,24 @@ a:hover, a:active {
 
 .hero h1 {
     font-size: 3em;
-    margin: 0 90px;
+    margin:auto;
     text-align: center;
     font-family: var(--paragraph-font);
     font-weight: 800;
-    margin-top: 40px;
+    margin-top: 50px;
+    position: relative;
+    display: flex;
 }
 
 .hero h2 {
     font-size: 1.8em;
+    margin:auto;
     text-align: center;
     font-family: var(--paragraph-font);
     font-weight: 200;
     margin-top: -40px;
+    position: relative;
+    display: flex;  
 }
 
 .subnav {
@@ -128,21 +134,72 @@ a:hover, a:active {
     color: #fff;
 }
 
-.section {
-	max-width: 900px;
+#demobox {
+    max-width: 900px;
 	margin: 60px auto;
-	padding: 90px 30px;
-	background-color: #D7ECF5;
+	padding: 60px 30px;
+    border-radius: 15px;
+	background-color: #E8EEED;
 	text-align: center;
     font-family: var(--heading-font);
+    position: relative;
+    z-index: 2;
+  }
 
+.disney {
+    margin-top: -20px;
+    height: 100%;
+    width: 100%;
+}
+
+#demobox2 {
+    max-width: 900px;
+	margin: 60px auto;
+	padding: 60px 30px;
+    border-radius: 15px;
+	background-color: #E8EEED;
+	text-align: center;
+    font-family: var(--heading-font);
+    position: relative;
+    z-index: 2;
+  }
+
+  .simplec {
+    margin-top: -20px;
+    height: 100%;
+    width: 100%;
+}
+
+  #demobox3 {
+    max-width: 900px;
+	margin: 60px auto;
+	padding: 60px 30px;
+    border-radius: 15px;
+	background-color: #E8EEED;
+	text-align: center;
+    font-family: var(--heading-font);
+    position: relative;
+    z-index: 2;
+  }
+
+  .grocery {
+    margin-top: -20px;
+    height: 100%;
+    width: 100%;
 }
 
 h2 {
-    font-size: 3em;
+    font-size: 2em;
     margin-bottom: 15px;
     font-family: var(--paragraph-font);
 }
+h3 {
+    font-size: 14pt;
+    margin-bottom: 15px;
+    font-family: var(--paragraph-font);
+    font-weight: 200;
+}
+
 p {
     line-height: 1.625em;
     margin: 0 auto;
@@ -178,10 +235,12 @@ p {
 footer {
     background-color: #748F84;
     padding: 25px 50px;
-    margin-top: 200px;
+    margin-top: 50px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    position:relative;
+    z-index: 3;
 }
 
 footer h3 {
