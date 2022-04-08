@@ -208,7 +208,13 @@ a:hover, a:active {
     font-family: var(--paragraph-font);
 }
 
-h3 {
+.content h3 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    font-family: var(--paragraph-font);
+}
+.content2 h3 {
     font-size: 1.5em;
     margin-bottom: 15px;
     margin-top: 10px;
