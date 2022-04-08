@@ -235,6 +235,8 @@ footer {
 footer h3 {
     color: white;
     font-family: var(--paragraph-font);
+    font-weight: 300;
+    font-size: large;
 }
 
 footer a {
